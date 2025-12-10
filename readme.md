@@ -29,7 +29,7 @@ A simple weather application that allows users to check real-time weather condit
 ## 📸 Screenshot
 > Interface of the app
 
-![Weather App UI](./Screenshots/Weather-app.png)
+![Weather App UI](./Screenshot/Weather-app.png)
 
 ---
 
