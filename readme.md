@@ -1,19 +1,38 @@
-## A simple weather application that allows users to check real-time weather conditions for any city using OpenWeather API
+# 🌦️ Weather App
 
-## Features:
-### ->Search weather by city name
-### -> Displays temperature,humidity, wind speed
-### -> Shows weather condition icons
-### -> Real-time fetching via API
+A simple weather application that allows users to check real-time weather conditions for any city using **OpenWeather API**.
 
-## Tech Stack:
-### Html/CSS --> UI & Styling
-### JavaScript --> fetching API & DOM updates
-### Weather API --> Real time weather data
+---
 
-## Live app 
-https://bhevesh31.github.io/Weather-app/
+## 🚀 Features
+- 🔍 Search weather by city name  
+- 🌡️ Displays temperature, humidity, and wind speed  
+- 🌥️ Shows weather condition icons  
+- ⚡ Real-time data fetching via API  
 
-## 📸 Screenshot:
-![Interface of app](./Screentshots/Weather-app.png)
+---
+
+## 🛠️ Tech Stack
+| Technology | Purpose |
+|------------|----------|
+| HTML / CSS | UI & Styling |
+| JavaScript | API fetching & DOM updates |
+| OpenWeather API | Real-time weather data |
+
+---
+
+## 🌐 Live Demo
+👉 https://bhevesh31.github.io/Weather-app/
+
+---
+
+## 📸 Screenshot
+> Interface of the app
+
+![Weather App UI](./Screenshots/Weather-app.png)
+
+---
+
+
+
 
