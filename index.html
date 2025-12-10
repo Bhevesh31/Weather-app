@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    
+</head>
+<body class="">
+    
+    <div id="app">
+        <div id="left">
+            <div id="loc">
+                <input id="cityInp" type="text" placeholder="Search for a city...">
+                <ul id="suggestions">
+                
+                </ul>
+                <h2 id="cityName"></h2>
+            </div>
+            <div id="temp">
+                
+                <img id="weatherIcon" src="" alt="">
+                <h1 id="currTemp"></h1>
+                <h3 id="today"></h3>
+            </div>
+            <div id="cond">
+                <p id="feelsLike"></p>
+                <p id="condition"></p>
+            </div>
+            
+
+        </div>
+        <div id="right">
+            <div id="top">
+                
+                <div id="map">
+
+                </div>
+
+                <div  class="box">
+                    <p>Sunrise & Sunset</p>
+                    <h5 id="sunriseTime"></h5>
+                    <h5 id="sunsetTime"></h5>
+                </div>
+                <div id="logo-container">
+                    <img id="logo" src="./Images/weather-1.png" alt="">
+                    <h2>Weather app</h2>
+                </div>
+                              
+                
+            </div>
+            <div id="bottom">
+                <div class="box">
+                    <p>Pressure</p>
+                    <h4 id="pressure"></h4>
+                </div>
+                <div class="box">
+                    <p>Wind Speed</p>
+                    <h4 id="wind"></h4>
+                </div>
+                <div class="box">
+                    <p>Description</p>
+                    <h4 id="minTemp"></h4>
+                    
+                </div>
+                <div class="box">
+                    <p >Humidity</p>
+                    <h4 id="humid"></h4>
+                </div>
+                <div class="box">
+                    <p >Visibility</p>
+                    <h4 id="visibility"></h4>
+                </div>
+                <div class="box">
+                    <p id=>Max temperature</p>
+                    <h4 id="maxTemp"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
